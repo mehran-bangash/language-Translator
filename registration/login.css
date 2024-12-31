@@ -1,0 +1,182 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* General container for forms */
+.container {
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: 0.3s ease;
+}
+
+/* Focus effect for input fields */
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #4CAF50;
+    background-color: #fff;
+    outline: none;
+}
+
+/* Button styles */
+button.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Button hover effect */
+button.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Forgot Password Link styling */
+.forgot-password-link {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.forgot-password-link a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.forgot-password-link a:hover {
+    text-decoration: underline;
+}
+
+/* Register Link styling */
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for Forgot Password page */
+.forgot-password-container {
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.forgot-password-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.forgot-password-form .form-group {
+    margin-bottom: 20px;
+}
+
+.forgot-password-form input[type="email"] {
+    width: 100%;
+}
+
+.forgot-password-form .submit-btn {
+    width: 100%;
+}
+
+/* Styling for Register page */
+.register-container {
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.register-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form .form-group {
+    margin-bottom: 15px;
+}
+
+.register-form .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Hover effect for Register form button */
+.register-form .submit-btn:hover {
+    background-color: #45a049;
+}
